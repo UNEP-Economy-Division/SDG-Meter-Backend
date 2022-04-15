@@ -15,7 +15,7 @@ phase using BERT and finally we will present and discuss the obtained results.
 
 ## Setup
 
-**You must have python 3.8** for this project not above due to some conflict errors
+**You must have python 3.8** for this project not above due to some conflict errors.
 
 In order to develop on the project, you need first to install python dependencies.  
 It's recommended to use a python virtual environment, for more details look at [the official documentation](https://docs.python.org/3/tutorial/venv.html).  
