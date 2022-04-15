@@ -13,7 +13,7 @@ we propose to solve this problem with a multi-lablel classification of texts usi
 present the key steps for building our database, then the multi-label classification
 phase using BERT and finally we will present and discuss the obtained results.
 
-# Setup
+## Setup
 
 **You must have python 3.8** for this project not above due to some conflict errors
 
@@ -26,7 +26,21 @@ Ask someone to get it
 To install python dependencies:  
 > pip install -r requirements.txt
 
-# Development
+## Development
 
-To run the backend:  
+To run the project:  
 > python app/app.py
+
+
+## Docker 
+You need [Docker](https://www.docker.com/) installed on your machine.
+
+1. Build the image: 
+>  docker build --tag sdg-backend .
+
+
+2. Run the image:
+> docker run -p 5000:5000 sdg-backend
+
+The project will be accessible on the port 5000 of your machine: **localhost:5000**
+
