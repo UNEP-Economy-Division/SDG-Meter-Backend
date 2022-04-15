@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Sustainable Development Goals (SDGs) are the guiding line to
+[The Sustainable Development Goals (SDGs)](http://62.160.8.100/#sdgs) are the guiding line to
 achieve a better and more sustainable future for all. They tackle the global challenges we face, including poverty, inequality, climate change, environmental
 degradation, peace and justice. The OnePlanet network - an open partnership
 for sustainable development - provides a platform where all countries, including
