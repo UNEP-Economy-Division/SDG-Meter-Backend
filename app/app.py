@@ -10,12 +10,12 @@ CORS(app)
 app.config['SECRET_KEY'] = 'secret!'
 
 
-@app.route('/', methods=['GET'])
+@app.route('/api', methods=['GET'])
 def alive():
     return "live"
 
 
-@app.route('/sdgOP',methods=['POST'])
+@app.route('/api/sdgOP',methods=['POST'])
 def predict_text():
     content=request.json
     data = get_predictions(content["text"])
